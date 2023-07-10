@@ -24,7 +24,7 @@ Develop;
 Test;  
 Deploy.
 ```
-![CI CD diagram.jpg](CI%20CD%20diagram.jpg)
+![CI CD diagram.jpg](images%2FCI%20CD%20diagram.jpg)
 
 ## Why Jenkins?
 
@@ -40,7 +40,7 @@ While Jenkins is a widely-used tool, there are other options available for imple
 
 The choice of CI/CD tool depends on specific requirements, team preferences, and the ecosystem in which the development is taking place.
 
-![ci cd build test.png](ci%20cd%20build%20test.png)
+![ci cd build test.png](images%2Fci%20cd%20build%20test.png)
 
 ## Benefits of Building a CI/CD Pipeline
 
