@@ -62,3 +62,19 @@ CI/CD provides significant value to businesses by:
 - Enabling Innovation: CI/CD fosters a culture of continuous improvement, experimentation, and innovation within development teams.
 - Reducing Costs: Automation and early bug detection help reduce the cost of fixing issues, ensuring efficient resource utilization.
 
+## Generating SSH Key Pair and Adding Public Key to GitHub
+
+To generate an SSH key pair, use the following command:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "mushahid.a@outlook.com"
+```
+## Adding SSH Key to GitHub
+
+   1. Log in to your GitHub account.
+   2. Navigate to the "app" repository and access the settings by clicking on your profile picture.
+   3. In the left sidebar, click on "Deploy keys."
+   4.  Click on "New SSH key."
+   5.  Provide a title for the key (e.g., "Jenkins SSH key").
+   6. Copy the contents of the public key file and paste it into the "Key" field.
+   7.  Click on "Add SSH key" to save the changes.
