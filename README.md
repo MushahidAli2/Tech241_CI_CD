@@ -15,7 +15,15 @@ Continuous Integration and Continuous Deployment (CI/CD) is a software developme
 ## What is CI/CD?
 
 CI/CD, which stands for Continuous Integration and Continuous Deployment, is a software development practice that focuses on automating the processes of building, testing, and deploying applications. It involves integrating code changes frequently and automatically testing and deploying them to production environments, resulting in faster and more reliable software delivery.
+![through-Continuous-Integration-and-Continuous-Delivery-pipeline.png](through-Continuous-Integration-and-Continuous-Delivery-pipeline.png)
 
+```python
+Plan;  
+Design;  
+Develop;   
+Test;  
+Deploy.
+```
 ![CI CD diagram.jpg](CI%20CD%20diagram.jpg)
 
 ## Why Jenkins?
@@ -31,6 +39,8 @@ While Jenkins is a widely-used tool, there are other options available for imple
 - Travis CI: A cloud-based CI/CD platform that specializes in continuous integration for open-source projects, providing seamless integration with GitHub.
 
 The choice of CI/CD tool depends on specific requirements, team preferences, and the ecosystem in which the development is taking place.
+
+![ci cd build test.png](ci%20cd%20build%20test.png)
 
 ## Benefits of Building a CI/CD Pipeline
 
