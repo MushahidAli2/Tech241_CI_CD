@@ -17,11 +17,11 @@
 ## CI/CD Diagram
 
 
-
+![CI_CD diagram.png](images%2FCI_CD%20diagram.png)
 ## Git Workflow Diagram
 
 
-
+![gitdiagram(1).png](images%2Fgitdiagram%281%29.png)
 ## Jenkins
 
 - **What is Jenkins?**
@@ -31,22 +31,26 @@
 - **Jenkins workflow**
   - Jenkins follows a pipeline-based workflow, where each stage represents a specific task, such as building, testing, or deploying. It allows teams to define and automate their CI/CD processes.
 
-## SDLC Workflow Stages
+## SDLC (Software Development Life Cycle)
 
-1. **Requirements Gathering**
-   - Identify and gather project requirements from stakeholders and end-users.
-2. **Design and Planning**
-   - Create a detailed plan for the application, including architecture, user interface, and data structures.
-3. **Development**
-   - Write code and develop the application based on the requirements and design.
-4. **Testing**
-   - Perform various testing activities, such as unit testing, integration testing, and user acceptance testing, to ensure the application functions correctly.
-5. **Deployment**
-   - Package and deploy the application to the production environment, making it available to users.
-6. **Monitoring and Maintenance**
-   - Continuously monitor the application's performance and address any issues or bugs that arise. Regularly update and maintain the application.
+- **What is SDLC?**
+  - SDLC stands for Software Development Life Cycle. It is a framework that defines the processes and activities involved in developing software applications.
+- **SDLC Workflow Stages**
+  1. Requirements Gathering
+     - Identify and gather project requirements from stakeholders and end-users.
+  2. Design and Planning
+     - Create a detailed plan for the application, including architecture, user interface, and data structures.
+  3. Development
+     - Write code and develop the application based on the requirements and design.
+  4. Testing
+     - Perform various testing activities, such as unit testing, integration testing, and user acceptance testing, to ensure the application functions correctly.
+  5. Deployment
+     - Package and deploy the application to the production environment, making it available to users.
+  6. Monitoring and Maintenance
+     - Continuously monitor the application's performance and address any issues or bugs that arise. Regularly update and maintain the application.
 
 ## Demo: CI/CD Pipeline
+
 
 
 
