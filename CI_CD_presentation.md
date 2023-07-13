@@ -14,14 +14,35 @@
   - Early detection of bugs and issues
   - Improved collaboration and communication among team members
 
+## CI/CD Environment and How it Works
+
+A CI/CD environment refers to the infrastructure and tools set up to implement the CI/CD approach in software development. It includes a combination of tools, processes, and resources that enable continuous integration, continuous testing, and continuous deployment of software applications.
+
+CI/CD environment combines automation, version control, testing, and deployment tools to streamline the software development lifecycle, ensuring faster delivery of high-quality applications.
 ## CI/CD Diagram
 
 
 ![CI_CD diagram.png](images%2FCI_CD%20diagram.png)
+
+
+1. **Code** - Developers write code for the application.
+2. **Commit** - Developers commit their code changes to a version control system (e.g., Git).
+3. **Build** - The CI/CD system automatically builds the application, compiling the code and creating an executable or deployable artifact.
+4. **Test** - Automated tests are run to check the quality and functionality of the application.
+5. **Deploy** - If all tests pass, the application is deployed to a staging environment for further testing and validation.
+6. **Release** - Once the application is approved in the staging environment, it is released to production, making it available to users.
+
+
 ## Git Workflow Diagram
 
 
 ![gitdiagram(1).png](images%2Fgitdiagram%281%29.png)
+In this diagram:
+
+- `Working Directory`: This is the area where you make changes to your files.
+- `Staging Area`: Git allows you to selectively choose which changes to include in the next commit. You can add specific files or changes to the staging area.
+- `Local Repository`: After staging the changes, you can create a commit, which takes a snapshot of the files in the staging area and stores it in your local repository.
+- `Remote Repository`: This is the central repository that acts as a shared location for collaboration. You can push your local commits to the remote repository or pull the latest changes from it.
 ## Jenkins
 
 - **What is Jenkins?**
